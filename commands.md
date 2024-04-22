@@ -25,6 +25,15 @@ The repl for elixir, runs over erlang
 
 In general we will create a folder for the whole system and add projects/applications to it by using mix
 
-create a new Elixir project
+* create a new Elixir project
 
 > mix new <project_name>
+
+* see doc about run command with mix
+
+> mix help run 
+
+* Load an application into IEx in the context of your project, to use it interactivily and with auto commpleate.
+    > iex -S mix
+* In case that the application is modified, it can be reloaded int IEx like this:
+    > r <application_name>
