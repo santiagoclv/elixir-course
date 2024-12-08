@@ -17,12 +17,11 @@ The repl for elixir, runs over erlang
 * it **remembers** the output **value of the evaluations** too, and they can be reuse by accessed using 
     > v(number-of-evaluation)
 * You can save v(number-of-evaluation) into a variable
-    - in one line
+    - first in one line
+    - then in multiple lines
 ```iex
 > v4 = v(4)
 ```
-
-    - in multiple lines
 
 ```iex
 > v5 =
