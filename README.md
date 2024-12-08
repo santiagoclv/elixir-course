@@ -16,6 +16,19 @@ The repl for elixir, runs over erlang
 * it **remembers** the **evaluations** that were run on that instance and can be accessed using arrows.
 * it **remembers** the output **value of the evaluations** too, and they can be reuse by accessed using 
     > v(number-of-evaluation)
+* You can save v(number-of-evaluation) into a variable
+    - in one line
+```iex
+> v4 = v(4)
+```
+
+    - in multiple lines
+
+```iex
+> v5 =
+... v(5)
+... #iex:break
+```
 
 ## Elixir nomenclature
 
