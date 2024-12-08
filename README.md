@@ -20,7 +20,7 @@ The repl for elixir, runs over erlang
 ## Elixir nomenclature
 
 ### Difference between Elixir and other programming languages
- * When we talk about **applications** or **projects** in Elixir, we're really talking about **components** inside of **a bigger whole**. Writing code in Elixir as a series of separate (if interdependent) components leads to more flexible, and easier to develop, designs.
+ * When we talk about **applications** or **projects** in Elixir, we're really talking about **components** inside of **a bigger whole**. Writing code in Elixir as a series of separate (if interdependent) components leads to more flexible and easier to develop designs.
 
 ## Mix
 
